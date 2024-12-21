@@ -1,3 +1,4 @@
 <?php
-phpinfo();
+// Retrieve and print the version of the oci8 extension
+echo 'OCI8 Version: ' . phpversion('oci8');
 ?>
